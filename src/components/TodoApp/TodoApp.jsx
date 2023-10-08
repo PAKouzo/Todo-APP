@@ -25,11 +25,6 @@ const TodoApp = () => {
         )
       );
     };
-  
-    const deleteTodo = (id) => {
-      setTodos(todos.filter((todo) => todo.id !== id));
-    };
-  
     const deleteAllTodos = () => {
       setTodos([]);
     };
@@ -54,7 +49,7 @@ const TodoApp = () => {
           <button className='status__button 'onClick={() => handleFilterChange('completed')}>Complete</button>
         </div>
         <Input onAdd={addTodo} />
-        <TodoList todos={filteredTodos} onToggle={toggleTodo} />
+        <TodoList todos={filteredTodos} onToggle={toggleTodo}/>
         {todos.length > 0 && (
           <button className='delete__button 'onClick={deleteAllTodos}>Delete All</button>
         )}

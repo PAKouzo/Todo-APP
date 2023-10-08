@@ -21,7 +21,7 @@ const TodoForm = ({ onAdd }) => {
         onChange={(e) => setText(e.target.value)}
         placeholder="Add details"
       />
-      <button className='button__add' type="submit">Add</button>
+      <button className='button__add' type="submit">ADD</button>
     </form>
   );
 };
