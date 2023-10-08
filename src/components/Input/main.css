@@ -1,0 +1,16 @@
+.add__todo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.input__todo{
+    width: 500px;
+    height: 30px;
+}
+.button__add{
+    width: 80px;
+    background-color: rgb(17, 60, 166);
+    border-radius: 10%;
+    color: white;
+}

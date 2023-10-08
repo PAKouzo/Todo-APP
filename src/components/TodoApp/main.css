@@ -1,0 +1,21 @@
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.view{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    border-bottom: rgb(226, 215, 215) solid;
+}
+.status__button{
+    border: none;
+    background-color: white;
+}
+.status__button:hover{
+    text-decoration: underline 2px aqua;
+}
+.delete__button{
+    background-color: red;
+    color: white;
+}
